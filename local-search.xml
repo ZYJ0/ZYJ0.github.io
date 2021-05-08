@@ -4,32 +4,6 @@
   
   
   <entry>
-    <title></title>
-    <link href="/2021/05/08/index/"/>
-    <url>/2021/05/08/index/</url>
-    
-    <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>个人简历</title>    <link rel="stylesheet" href="style.css"></head><body >    <div class="b">    <header class="header w">                         <h3>个人简历</h3>            <p>188-8888-8888 / success@jobmailvip</p>                  <div class="fr">            <span><img src="pic.jpg" alt=""></span>        </div>        </header>    <div class="main w">        <div class="education">            <h3>教育经历</h3>            <p class="tit"> <b>北京XX大学</b> <span>2017年09月 - 2021年06月</span></p>                             <p> 软件工程 本科</p>        </div>        <div class="internship">            <h3>实习经历</h3>            <p class="tit"><b>字节跳动</b><span>2020年06月-2020年08月</span></p>            <p>产品经理实习生<span>北京</span></p>                        <p> <i class="status-point"></i> &nbsp;                协助产品经理负责产品的规划、流程和原型设计并进行相关调研，对需求进行整理和分析，并输出需求文档 </p>            <p> <i class="status-point"></i> &nbsp;                   完成用户分型系统的流程梳理、需求文档的整理和编写，并与技术部门协调开发上线，和运营部门协调测试及上线，系统上线后成功达成DAU增长目标</p>             <p> <i class="status-point"></i> &nbsp;                   协助产品经理完成在线教育app的前台、后台页面的界面设计和逻辑结构设计，与设计部门沟通原型图，并提交技术部门按期开发和上线,上线后1个月获得10w新用户，次月留存率30%+</p>            <p><b>XX科技有限公司</b><span>2019年06月-2019年09月</span></p>                    <p>产品实习生产品部</p>                <p> <i class="status-point"></i> &nbsp;                    协助产品经理完成某图形图像处理小程序的原型设计、UI设计、逻辑结构并整理成需求文档</p>                <p> <i class="status-point"></i> &nbsp;                       与技术、运营等部门协同讨论图像处理小程序的优化、迭代等工作</p>                <p> <i class="status-point"></i> &nbsp;                       推动图形图像处理小程序上线，上线后监测用户拉新、留存等数据并汇报，同时每周根据数据提出优化意见和需求</p>            </div>        <div class="project">            <h3>项目经历</h3>            <p class="tit"><b>教育app竞品调研</b><span>2020年05月 - 2020年07月</span></p>            <p> <i class="status-point"></i> &nbsp;                 对市场中流行的在线教育app进行分析和研究，考虑用户体验、市场空间、未来发展等可能影响到产品的相关因素</p>            <p> <i class="status-point"></i> &nbsp;                   设计问卷并进行问卷调研，对产品进行信息架构和用户行为流程分析，完成相关流程图的绘制</p>            <p> <i class="status-point"></i> &nbsp;                  使用Axure对产品进行原型设计,并进行可用性测试和测试用例分析</p>             <p> <i class="status-point"></i> &nbsp;                   深度分析产品的核心竞争力和持续盈利能力,撰写10000+字的报告移动</p>            <p><b>应用程序设计和优化</b><span>2019年06月- 2019年09月</span></p>              <p> <i class="status-point"></i> &nbsp;                设计用户需求问卷,对用户需求进行问卷调研,撰写相关调研报告</p>             <p> <i class="status-point"></i> &nbsp;                   完成产品的信息架构和功能架构以及需求流程分析，撰写产品需求分析说明书</p>            <p> <i class="status-point"></i> &nbsp;                   使用Mindmanager、 visio完成思维导图及相关流程图的绘制</p>            <p> <i class="status-point"></i> &nbsp;                  对产品原型进行UI界面设计，实现相关设计理念和想法，并最终完成产品开发</p>          </div>        <div class="certificate">            <h3>技能/证书及其他</h3>            <p class="tit"><i class="status-point"></i> &nbsp;                <b>技能 : &nbsp;</b>Office、 Python.Sketch、 Axure、数据整理</p>            <p><i class="status-point"></i> &nbsp;                <b>证书/执照 : &nbsp;</b>计算机二级</p>            <p><i class="status-point"></i> &nbsp;                <b>语言 : &nbsp;</b>英语（CET-6)</p>        </div>    </div>    </div></body></html>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title></title>
-    <link href="/2021/05/08/style/"/>
-    <url>/2021/05/08/style/</url>
-    
-    <content type="html"><![CDATA[/* 把我们所有标签的内外边距清零 */* {    margin: 0;    padding: 0;    /* css3盒子模型 */    box-sizing: border-box}/* em 和 i 斜体的文字不倾斜 */em,i {    font-style: normal}/* 去掉li 的小圆点 */li {    list-style: none}img {    /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */    border: 0;    /* 取消图片底侧有空白缝隙的问题 */    vertical-align: middle}button {    /* 当我们鼠标经过button 按钮的时候，鼠标变成小手 */    cursor: pointer}a {    color: #666;    text-decoration: none}a:hover {    color: #c81623}button,input {    /* "\5B8B\4F53" 就是宋体的意思 这样浏览器兼容性比较好 */    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;    /* 手动去掉边框 */    border: 0;    outline: none;}body {    /* CSS3 抗锯齿形 让文字显示的更加清晰 */    -webkit-font-smoothing: antialiased;    background-color: #fff;    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;    color: #666}.hide,.none {    display: none}/* 清除浮动 */.clearfix:after {    visibility: hidden;    clear: both;    display: block;    content: ".";    height: 0}.clearfix {    *zoom: 1}.b{    width: 826px;    height: 1170px;    /* background-color: #ccc; */    margin: 0 auto;}.w{    width: 730px;    margin: 0 auto;}.header{    position: relative;    height: 165px;    color: black;    /* background-color: skyblue; */    text-align: center;    padding-top: 54px;    font-size: 19px;}.header h3{    font-size: 20px;}.header p{    font-size: 10px;}.fr{    /* float: right; */    position: absolute;    width: 65px;    height: 95px;    /* background-color: pink; */    top: 54px;    right: 18px;}.fr span img {    width: 100%;}.main{    color: black;}.main h3{    font-size: 14px;    border-bottom: 1px solid black;    padding-bottom: 8px;    margin-top: 18px;}.tit{    margin-top: 5px;}.main p{    font-size: 12px;    line-height: 21px;    /* margin-top: 13px; */    margin-bottom: 8px;}.main p b{    font-weight: 900;}.main span{    float: right;}.status-point {    width:4px;    height:4px;    border-radius:50%;    background-color:black;    display: inline-block;    vertical-align: middle;  }  .m{      float: left;  }]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>Hexo部署github博客</title>
     <link href="/2021/05/07/Hexo%E9%83%A8%E7%BD%B2github%E5%8D%9A%E5%AE%A2/"/>
     <url>/2021/05/07/Hexo%E9%83%A8%E7%BD%B2github%E5%8D%9A%E5%AE%A2/</url>
