@@ -23,6 +23,22 @@
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
 
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.6.0/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
+
+
 
 <!-- 主题依赖的图标库，不要自行修改 -->
 
@@ -48,7 +64,7 @@
 
 
 <body>
-  <header style="height: 100vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -147,17 +163,50 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="An elegant Material-Design theme for Hexo">
+            <span class="h2" id="subtitle" title="">
               
             </span>
 
             
+              <div class="mt-3">
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-05-08 21:15" pubdate>
+        2021年5月8日 晚上
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      380 字
+    </span>
+  
+
+  
+    
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      6
+       分钟
+    </span>
+  
+
+  
+  
+</div>
+
+            
           </div>
 
-          
-            <div class="scroll-down-bar">
-              <i class="iconfont icon-arrowdown"></i>
-            </div>
           
         </div>
       </div>
@@ -166,95 +215,20 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          style=margin-top:0>
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
+      
 
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2021/05/08/index/" target="_self">
-          
-        </a>
-      </h1>
-
-      <p class="index-excerpt">
-        <a href="/2021/05/08/index/" target="_self">
-          
-          
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none"></h1>
             
-          
-          
-
-
-    
-    
-    
-    个人简历
-    
-
-
-    
-     
-    
-        
-            个人简历
-            188-8888-8888 / success@jobmailvip  
-        
-        
-            
-        
-    
-    
-
-    
-        
-          
-        </a>
-      </p>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2021-05-08 21:15" pubdate>
-              2021-05-08
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2021/05/08/style/" target="_self">
-          
-        </a>
-      </h1>
-
-      <p class="index-excerpt">
-        <a href="/2021/05/08/style/" target="_self">
-          
-          
-            
-          
-          /* 把我们所有标签的内外边距清零 */
+            <div class="markdown-body">
+              /* 把我们所有标签的内外边距清零 */
 * {
     margin: 0;
     padding: 0;
@@ -269,106 +243,198 @@ i {
 /* 去掉li 的小圆点 */
 li {
     list-style: none
-        </a>
-      </p>
+}
 
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2021-05-08 21:15" pubdate>
-              2021-05-08
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
-  </div>
+img {
+    /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+    border: 0;
+    /* 取消图片底侧有空白缝隙的问题 */
+    vertical-align: middle
+}
 
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2021/05/07/Hexo%E9%83%A8%E7%BD%B2github%E5%8D%9A%E5%AE%A2/" target="_self">
-          Hexo部署github博客
-        </a>
-      </h1>
+button {
+    /* 当我们鼠标经过button 按钮的时候，鼠标变成小手 */
+    cursor: pointer
+}
 
-      <p class="index-excerpt">
-        <a href="/2021/05/07/Hexo%E9%83%A8%E7%BD%B2github%E5%8D%9A%E5%AE%A2/" target="_self">
-          
-          
-            
-          
-          
-        </a>
-      </p>
+a {
+    color: #666;
+    text-decoration: none
+}
 
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2021-05-07 23:14" pubdate>
-              2021-05-07
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
-  </div>
+a:hover {
+    color: #c81623
+}
 
-  <div class="row mx-auto index-card">
-    
-    
-    <article class="col-12 col-md-12 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2021/05/07/hello-world/" target="_self">
-          Hello World
-        </a>
-      </h1>
+button,
+input {
+    /* "\5B8B\4F53" 就是宋体的意思 这样浏览器兼容性比较好 */
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    /* 手动去掉边框 */
+    border: 0;
+    outline: none;
 
-      <p class="index-excerpt">
-        <a href="/2021/05/07/hello-world/" target="_self">
-          
-          
-            
-          
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick
-        </a>
-      </p>
+}
 
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2021-05-07 16:25" pubdate>
-              2021-05-07
-            </time>
-          </div>
-        
-        
-        
-      </div>
-    </article>
-  </div>
+body {
+    /* CSS3 抗锯齿形 让文字显示的更加清晰 */
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
+}
 
+.hide,
+.none {
+    display: none
+}
+/* 清除浮动 */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
 
+.clearfix {
+    *zoom: 1
+}
 
+.b{
+    width: 826px;
+    height: 1170px;
+    /* background-color: #ccc; */
+    margin: 0 auto;
+}
+.w{
+    width: 730px;
+    margin: 0 auto;
+}
+.header{
+    position: relative;
+    height: 165px;
+    color: black;
+    /* background-color: skyblue; */
+    text-align: center;
+    padding-top: 54px;
+    font-size: 19px;
+}
+.header h3{
+    font-size: 20px;
+}
+.header p{
+    font-size: 10px;
+}
+.fr{
+    /* float: right; */
+    position: absolute;
+    width: 65px;
+    height: 95px;
+    /* background-color: pink; */
+    top: 54px;
+    right: 18px;
 
+}
+.fr span img {
+    width: 100%;
+}
 
-              </div>
+.main{
+    color: black;
+}
+.main h3{
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+    margin-top: 18px;
+}
+.tit{
+    margin-top: 5px;
+}
+.main p{
+    font-size: 12px;
+    line-height: 21px;
+    /* margin-top: 13px; */
+    margin-bottom: 8px;
+}
+.main p b{
+    font-weight: 900;
+}
+.main span{
+    float: right;
+}
+.status-point {
+    width:4px;
+    height:4px;
+    border-radius:50%;
+    background-color:black;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .m{
+      float: left;
+  }
             </div>
-          </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2021/05/08/index/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile"></span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2021/05/07/Hexo%E9%83%A8%E7%BD%B2github%E5%8D%9A%E5%AE%A2/">
+                        <span class="hidden-mobile">Hexo部署github博客</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
     
 
     
@@ -448,9 +514,15 @@ Quick
 
 
 
+  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.2/dist/tocbot.min.js" ></script>
 
 
 
+  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.0/anchor.min.js" ></script>
 
 
 
